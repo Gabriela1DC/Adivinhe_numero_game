@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background: rgb(233,7,141);
+    background: linear-gradient(180deg, rgba(233,7,141,1) 0%, rgba(249,255,4,1) 100%);
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+
+.abelha{
+  align-items: center;
+  height: 45vh;
+}
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .estrela {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
+
+
+  .navio {
+    margin: 0 0 15px;
+    height: 30vh;
+    whidht: 100px;
+  }
+  
+  .navio input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    widht: 90vh;
+  }
+  
+  .navio button {
+    border: 0;
+    color: WHITE;
+    background: blue;
+    
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    borde-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .navio button:hover {
+    opacity:.8;
+    background: black;
+  }
+.ilustracao-abelha{
+  width: 50vh;
+}
